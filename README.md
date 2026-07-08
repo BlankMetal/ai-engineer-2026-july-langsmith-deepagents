@@ -2,6 +2,8 @@
 
 A workshop on building a research agent from scratch with the [Deep Agents](https://github.com/langchain-ai/deepagents) framework. The repo ships both an **interactive notebook** that walks through the concepts step by step and a **standalone agent** wired up for LangSmith Studio.
 
+> **Origin:** This repo was originally forked from LangChain's [`langchain-samples/interrupt26-deepagents`](https://github.com/langchain-samples/interrupt26-deepagents), the Deep Agents workshop from Interrupt 2026.
+
 ## What You'll Learn
 
 - Creating a basic Deep Agent with built-in filesystem and planning tools
