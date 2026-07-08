@@ -13,6 +13,7 @@ dependencies = [
     "langchain-openai>=1.2.1",
     "langgraph-cli[inmem]>=0.4.24",
     "tavily>=1.1.0",
+    "rich>=15.0.0",
 ]
 
 [project.optional-dependencies]
