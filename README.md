@@ -4,6 +4,10 @@ A workshop on building a research agent from scratch with the [Deep Agents](http
 
 > **Origin:** This repo was originally forked from LangChain's [`langchain-samples/interrupt26-deepagents`](https://github.com/langchain-samples/interrupt26-deepagents), the Deep Agents workshop from Interrupt 2026.
 
+## Tracing with LangSmith
+
+Deep Agents is built on LangChain, so **tracing is automatic** — nothing changes about how you build the agent. Set `LANGSMITH_TRACING=true` and `LANGSMITH_API_KEY` in your `.env` (see [Setup](#setup)), and every `agent.invoke(...)` streams a full trace to [LangSmith](https://smith.langchain.com/): the tool-calling loop, subagent delegation, filesystem ops, model calls, and token usage. Set `LANGSMITH_PROJECT` to group the workshop's runs under one project.
+
 ## What You'll Learn
 
 - Creating a basic Deep Agent with built-in filesystem and planning tools
